@@ -10,12 +10,10 @@ const header = document.querySelector('#typing');
 
 let typed = new Typed(header, {
     strings: [
-        'Full-stack Developer',
-        'Front-end',
+        'Junior Frontend Developer',
         'Problem-Solver',
         'Creative Solutions',
         'Enthusiastic Learner',
-        'Freelancer',
     ],
     loop: true,
     typeSpeed: 110,
