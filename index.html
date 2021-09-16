@@ -53,26 +53,55 @@
                         ME</a>
                 </div>
 
-
-                <div class="md:hidden flex items-center ">
-                    <button class="mobile-menu-button">
-                        <svg class="w-10 h-10 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </button>
-                </div>
-
             </div>
         </div>
 
-        <div class="mobile-menu md:hidden bg-gray-900 translate-x-full transform duration-1000 fixed w-full">
-            <a href="#" class="block py-5 px-4 text-lg hover:bg-purple-600 transition text-white border-b">PROJECTS</a>
-            <a href="#" class="block py-5 px-4 text-lg hover:bg-purple-600 transition text-white border-b">ABOUT ME</a>
-            <a href="#" class="block py-5 px-4 text-lg hover:bg-purple-600 transition text-white border-b">CONTACT</a>
-            <a href="#" class="block py-5 px-4 text-lg hover:bg-purple-600 transition text-white">HIRE ME</a>
-        </div>
+        <nav class="flex sm:hidden fixed justify-center items-center w-full h-28 p-4 bottom-0 z-50 mx-auto">
+            <div
+                class="flex justify-between items-center w-full h-full bg-lighter rounded-2xl px-4 shadow-lg bg-gray-800">
+                <div class="flex items-center flex-col">
+                    <div class="flex justify-center items-center text-white text-2xl"><svg
+                            xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
+                        </svg></div>
+                    <div class="text-white text-sm pt-1">About me</div>
+                </div>
+                <div class="flex items-center flex-col">
+                    <div class="flex justify-center items-center text-white text-2xl"><svg
+                            xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+                        </svg></div>
+                    <div class="text-white text-sm pt-1">Projects</div>
+                </div>
+                <div class="flex items-center flex-col">
+                    <div class="flex justify-center items-center text-white text-2xl"><svg stroke="currentColor"
+                            fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle fill="none" cx="17.5" cy="18.5" r="1.5"></circle>
+                            <circle fill="none" cx="5.5" cy="11.5" r="1.5"></circle>
+                            <circle fill="none" cx="17.5" cy="5.5" r="1.5"></circle>
+                            <path
+                                d="M5.5,15c0.91,0,1.733-0.358,2.357-0.93l6.26,3.577C14.048,17.922,14,18.204,14,18.5c0,1.93,1.57,3.5,3.5,3.5 s3.5-1.57,3.5-3.5S19.43,15,17.5,15c-0.91,0-1.733,0.358-2.357,0.93l-6.26-3.577c0.063-0.247,0.103-0.502,0.108-0.768l6.151-3.515 C15.767,8.642,16.59,9,17.5,9C19.43,9,21,7.43,21,5.5S19.43,2,17.5,2S14,3.57,14,5.5c0,0.296,0.048,0.578,0.117,0.853L8.433,9.602 C7.808,8.64,6.729,8,5.5,8C3.57,8,2,9.57,2,11.5S3.57,15,5.5,15z M17.5,17c0.827,0,1.5,0.673,1.5,1.5S18.327,20,17.5,20 S16,19.327,16,18.5S16.673,17,17.5,17z M17.5,4C18.327,4,19,4.673,19,5.5S18.327,7,17.5,7S16,6.327,16,5.5S16.673,4,17.5,4z M5.5,10C6.327,10,7,10.673,7,11.5S6.327,13,5.5,13S4,12.327,4,11.5S4.673,10,5.5,10z">
+                            </path>
+                        </svg></div>
+                    <div class="text-white text-sm pt-1">Socials</div>
+                </div>
+                <div class="flex items-center flex-col">
+                    <div class="flex justify-center items-center text-white text-2xl"><svg
+                            xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
+                        </svg></div>
+                    <div class="text-white text-sm pt-1">Hire me</div>
+                </div>
+            </div>
+        </nav>
+
     </nav>
     <header class="flex justify-center ">
         <div class="text-5xl md:text-7xl text-white items-center mt-32 ">
@@ -92,7 +121,7 @@
             class="grid grid-flow-row md:grid-flow-col md:auto-rows-max md:space-x-2 pt-5 md:justify-around md:text-base text-xs  ">
 
             <div class="  rounded-3xl  max-w-md mb-5 h-80 ">
-                <img src="images/previewsplitter.gif" alt="" class="md:h-52 h-48 md:w-screen w-4/5 rounded-2xl mx-auto">
+                <img src="images/previewchs.gif" alt="" class="md:h-52 h-48 md:w-screen w-4/5 rounded-2xl mx-auto">
                 <p class="text-center text-white text-justify m-10 ">A fictional high school's website for
                     practising Tailwind CSS.</p>
             </div>
