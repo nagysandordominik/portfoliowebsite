@@ -1,11 +1,4 @@
 
-const btn = document.querySelector("button.mobile-menu-button");
-const menu = document.querySelector(".mobile-menu");
-
-btn.addEventListener("click", () => {
-    menu.classList.toggle("transform");
-});
-
 const header = document.querySelector('#typing');
 
 let typed = new Typed(header, {
