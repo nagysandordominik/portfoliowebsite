@@ -44,7 +44,7 @@
                                 d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
                                 clip-rule="evenodd" />
                         </svg>
-                        <span class="font-bold md:text-2xl text-lg tracking-widest pl-2"> SÁNDOR NAGY</span>
+                        <span class="font-bold lg:text-2xl md:text-xl  text-lg tracking-widest pl-2"> SÁNDOR NAGY</span>
                     </a>
                 </div>
 
@@ -53,9 +53,7 @@
                     <a href="#" class="py-3 px-5 text-white hover:bg-gray-900 rounded-2xl transition">PROJECTS</a>
                     <a href="#" class="py-3 px-5 text-white hover:bg-gray-900 rounded-2xl transition">ABOUT ME</a>
                     <a href="#" class="py-3 px-5 text-white hover:bg-gray-900 rounded-2xl transition">CONTACT</a>
-                    <a href=""
-                        class="py-2 px-8 bg-purple-600 hover:bg-purple-500 text-white hover:font-light rounded transition duration-300">HIRE
-                        ME</a>
+
                 </div>
             </div>
 
@@ -110,7 +108,7 @@
 
     </nav>
     <header class="flex justify-center ">
-        <div class="text-5xl md:text-7xl text-white items-center my-72 ">
+        <div class="text-5xl md:text-7xl text-white items-center mt-96 ">
             <h1 class="mb-10"><span class="block mb-4 text-6xl">Hi,</span><span class="text-4xl">I'm</span>
                 Sándor! &#128075;&#127995;
             </h1>
@@ -118,33 +116,32 @@
         </div>
 
     </header>
-    <section id="projects" class="my-72">
-        <div class="flex justify-center ">
-            <p class=" md:text-4xl text-2xl text-white my-5 items-center">
+    <section id="projects" class="sm:mx-32 my-72 justify-center">
+        <div class=" flex justify-center md:justify-start ">
+            <p class=" md:text-5xl text-3xl text-white my-10 ">
                 / PROJECTS
             </p>
         </div>
         <div
-            class="grid grid-flow-row md:grid-flow-col md:auto-rows-max md:space-x-2 pt-5 md:justify-around md:text-base text-xs  ">
+            class="grid grid-flow-row lg:grid-flow-col sm:auto-rows-max pt-5 sm:justify-around sm:text-base text-xs justify-items-center">
 
-            <div class="  rounded-3xl  max-w-md mb-5  ">
-                <img src="images/previewchs.gif" alt="" class="md:h-52 h-48 md:w-screen w-4/5 rounded-2xl mx-auto">
+            <div class="rounded-3xl max-w-sm sm:max-w-md mb-5 h-80">
+                <img src=" images/previewchs.gif" alt="" class="md:h-52 h-48  w-4/5 rounded-2xl mx-auto">
                 <p class="text-center text-white text-justify mx-12 mt-6 ">A fictional high school's website for
                     practising Tailwind CSS.</p>
             </div>
 
 
-            <div class="text-center rounded-3xl  max-w-md mb-5 h-80 ">
-                <img src="images/previewsplitter.gif" alt="" class="md:h-52 h-48 md:w-screen w-4/5 rounded-2xl mx-auto">
+            <div class="rounded-3xl max-w-sm sm:max-w-md mb-5 h-80 ">
+                <img src="images/previewsplitter.gif" alt="" class="md:h-52 h-48  w-4/5 rounded-2xl mx-auto">
                 <p class="text-center text-white text-justify mx-12 mt-6 "> The perfect solution to figure out how much
                     you need to pay, when you are
                     having a good time
                     with your company at a restaurant.</p>
             </div>
 
-            <div class=" text-center rounded-3xl  max-w-md  h-80 ">
-                <img src="images/previewmoviefight.gif" alt=""
-                    class="md:h-52 h-48 md:w-screen w-4/5 rounded-2xl mx-auto">
+            <div class="rounded-3xl max-w-sm sm:max-w-md  h-80 ">
+                <img src="images/previewmoviefight.gif" alt="" class="md:h-52 h-48  w-4/5 rounded-2xl mx-auto">
                 <p class="text-center text-white text-justify mx-12 mt-6">Movie comparison app created by Javascript
                     only.
 
@@ -152,7 +149,7 @@
             </div>
 
         </div>
-        <div class="flex md:justify-end justify-center">
+        <div class=" md:justify-end justify-center">
             <h3 class="text-white md:m-12 text-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline"
                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -163,82 +160,92 @@
 
     </section>
 
-    <section id="aboutMe">
-        <div class="flex justify-center">
-            <p class=" md:text-4xl text-2xl text-white my-5 items-center">
+    <section id="aboutMe" class="md:mx-32 my-72 justify-center">
+        <div class="flex justify-center md:justify-start ">
+            <p class=" md:text-5xl text-3xl text-white my-10 ">
                 / ABOUT ME
             </p>
         </div>
         <div
-            class="grid grid-flow-row md:grid-flow-col md:auto-rows-max md:space-x-2 pt-5 md:justify-around md:text-base text-xs  ">
-            <div class="flex justify-center">
-                <img src="images/selfie.jpg" alt="A photo of myself" class="rounded-full w-64 h-60 items-center">
+            class="grid grid-flow-row md:grid-flow-col sm:auto-rows-max sm:space-x-2 pt-5 sm:justify-around sm:text-base text-xs  ">
+            <div class="space-y-7">
+                <div class="flex justify-center">
+                    <img src="images/selfie.jpg" alt="A photo of myself" class="rounded-full w-64 h-60 items-center">
 
+                </div>
+                <div class="flex justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-500" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <p class="pt-1 text-xl text-white inline">Szeged, Hungary</p>
+
+                </div>
+                <div class="flex justify-center h-20 p-4">
+                    <p
+                        class="text-white text-2xl text-center items-center bg-gray-800 px-7 py-2 rounded-2xl hover:bg-gray-700 transition">
+                        Resume</p>
+                </div>
             </div>
-            <div class="flex justify-center  ">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-500" viewBox="0 0 20 20"
-                    fill="currentColor">
-                    <path fill-rule="evenodd"
-                        d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                        clip-rule="evenodd" />
-                </svg>
-                <p class="pt-1 text-xl  text-white">Szeged, Hungary</p>
+            <div class="sm:flex mx-10">
+                <div class=" justify-center  p-4  w-full">
 
-            </div>
-            <div class="flex justify-center h-20 p-4">
-                <p
-                    class="text-white text-2xl text-center items-center bg-gray-800 px-7 py-2 rounded-2xl hover:bg-gray-700 transition">
-                    Resume</p>
-            </div>
-            <div class=" justify-center  p-4 mx-auto w-3/4">
+                    <h1 class="text-white md:text-5xl text-3xl text-center my-5 ">LANGUAGES</h1>
+                    <span class="space-y-4 ">
 
-                <h1 class="text-white text-3xl text-center my-5 ">LANGUAGES</h1>
-                <span class="space-y-4 ">
+                        <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7" />
+                            </svg>HTML
+                        </h3>
+                        <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7" />
+                            </svg>CSS</h3>
+                        <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7" />
+                            </svg>JAVASCRIPT</h3>
+                    </span>
+                </div>
+                <div class=" justify-center  p-4 mx-auto w-full ">
+                    <h1 class="text-white md:text-5xl text-3xl text-center my-5">FRAMEWORKS</h1>
+                    <span class="space-y-4 ">
 
-                    <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>HTML
-                    </h3>
-                    <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>CSS</h3>
-                    <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>JAVASCRIPT</h3>
-                </span>
-            </div>
-            <div class=" justify-center  p-4 mx-auto w-3/4 ">
-                <h1 class="text-white text-3xl text-center my-5">FRAMEWORKS</h1>
-                <span class="space-y-4 ">
-
-                    <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>BOOTSTRAP
-                    </h3>
-                    <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>BULMA</h3>
-                    <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>TAILWIND</h3>
-                </span>
+                        <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7" />
+                            </svg>BOOTSTRAP
+                        </h3>
+                        <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7" />
+                            </svg>BULMA</h3>
+                        <h3 class="text-white text-xl font-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                class="h-6 w-6 inline text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7" />
+                            </svg>TAILWIND</h3>
+                    </span>
+                </div>
             </div>
 
         </div>
     </section>
 
-    <section id="contactMe">
+    <section id="contactMe" class="md:mx-32 my-72 justify-center">
         <div class="mb-32">
-            <div class="flex justify-center">
-                <h1 class=" md:text-4xl text-2xl text-white my-5 items-center">
+            <div class="flex justify-center md:justify-start ">
+                <p class=" md:text-5xl text-3xl text-white my-10 ">
                     / CONTACT ME
-                </h1>
+                </p>
             </div>
             <p class="text-white text-lg text-justify mx-10">Whether you are interested in starting a project together,
                 looking for a
