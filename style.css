@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1026%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(17%2c 24%2c 39%2c 1)'%3e%3c/rect%3e%3cpath d='M1464.381%2c102.808C1507.418%2c103.547%2c1537.025%2c65.133%2c1558.843%2c28.029C1581.074%2c-9.777%2c1602.352%2c-55.538%2c1579.509%2c-92.978C1557.181%2c-129.573%2c1507.25%2c-126.84%2c1464.381%2c-126.796C1421.629%2c-126.752%2c1371.303%2c-129.612%2c1349.665%2c-92.74C1327.895%2c-55.642%2c1353.608%2c-12.222%2c1375.373%2c24.879C1396.759%2c61.334%2c1422.122%2c102.083%2c1464.381%2c102.808' fill='rgba(40%2c 52%2c 68%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1010.3 355.91 a236.42 236.42 0 1 0 472.84 0 a236.42 236.42 0 1 0 -472.84 0z' fill='rgba(40%2c 52%2c 68%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M569.67 671.07 a306.85 306.85 0 1 0 613.7 0 a306.85 306.85 0 1 0 -613.7 0z' fill='rgba(40%2c 52%2c 68%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M121.474%2c509.213C207.925%2c510.208%2c286.419%2c460.676%2c329.629%2c385.791C372.819%2c310.94%2c372.68%2c220.298%2c332.256%2c143.917C288.882%2c61.962%2c214.156%2c-4.702%2c121.474%2c-7.52C24.413%2c-10.471%2c-68.305%2c44.044%2c-112.745%2c130.385C-154.115%2c210.762%2c-126.085%2c304.204%2c-78.546%2c381.094C-33.918%2c453.275%2c36.617%2c508.237%2c121.474%2c509.213' fill='rgba(40%2c 52%2c 68%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1505.51 338.66 a216.01 216.01 0 1 0 432.02 0 a216.01 216.01 0 1 0 -432.02 0z' fill='rgba(40%2c 52%2c 68%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1403.613%2c1145.002C1499.099%2c1137.188%2c1573.28%2c1074.417%2c1625.112%2c993.844C1683.036%2c903.801%2c1739.11%2c795.8%2c1689.176%2c701.092C1637.077%2c602.276%2c1515.26%2c570.017%2c1403.613%2c573.733C1298.986%2c577.215%2c1205.438%2c630.782%2c1149.176%2c719.063C1087.817%2c815.342%2c1050.402%2c938.072%2c1108.951%2c1036.085C1166.507%2c1132.437%2c1291.753%2c1154.156%2c1403.613%2c1145.002' fill='rgba(40%2c 52%2c 68%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1026'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
 }
 
 .onscrollNav {
@@ -12,30 +13,9 @@ body {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 
 }
-.custom-shape-divider-top-1632658539 {
+.custom-shape-divider-top-1632661703 {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    z-index: -1;
-}
-
-.custom-shape-divider-top-1632658539 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 500px;
-}
-
-.custom-shape-divider-top-1632658539 .shape-fill {
-    fill: #4B5563;
-}
-
-.custom-shape-divider-bottom-1632658579 {
-    position: absolute;
-    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -43,16 +23,17 @@ body {
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1632658579 svg {
+.custom-shape-divider-top-1632661703 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
-    height: 500px;
+    width: calc(109% + 1.3px);
+    height: 172px;
 }
 
-.custom-shape-divider-bottom-1632658579 .shape-fill {
-    fill: #4B5563;
+.custom-shape-divider-top-1632661703 .shape-fill {
+    fill: rgb(40, 52, 68);
 }
+
 .custom-shape-divider-bottom-1632661298 {
     position: absolute;
     bottom: 100;
@@ -71,13 +52,6 @@ body {
 }
 
 .custom-shape-divider-bottom-1632661298 .shape-fill {
-    fill: #4B5563;
+    fill: rgb(40, 52, 68);
 }
 
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1632661298 svg {
-        width: calc(163% + 1.3px);
-        height: 500px;
-    }
-}
