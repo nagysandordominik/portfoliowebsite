@@ -12,12 +12,72 @@ body {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 
 }
+.custom-shape-divider-top-1632658539 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
 
-.custom-shape-divider-bottom-1632656248 {
+.custom-shape-divider-top-1632658539 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1632658539 .shape-fill {
+    fill: #4B5563;
+}
+
+.custom-shape-divider-bottom-1632658579 {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1632658579 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-bottom-1632658579 .shape-fill {
+    fill: #4B5563;
+}
+.custom-shape-divider-bottom-1632661298 {
+    position: absolute;
+    bottom: 100;
+    left: 100;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1632661298 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-bottom-1632661298 .shape-fill {
+    fill: #4B5563;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1632661298 svg {
+        width: calc(163% + 1.3px);
+        height: 500px;
+    }
 }
